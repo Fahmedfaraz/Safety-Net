@@ -8,21 +8,21 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.safetynet.alerts.safetynetalerts.rest.beans.Person;
+import com.safetynet.alerts.safetynetalerts.rest.model.Person;
 
-@RestController
+//@RestController
 public class FireStationRestService {
 	
-	private static final Log logger = LogFactory.getLog(FireStationRestService.class);
-	
-@GetMapping(path="/firestation")
-	public List<Person> getFirestation() {
-	ArrayList<Person> lstPerson = new ArrayList<Person> ();
-	
-	logger.trace("getFirestation() has been called");
-	
-	Person test= new Person("Faiza","Ahmed");
-	lstPerson.add(test);
-	return lstPerson;
-}
+//	private static final Log logger = LogFactory.getLog(FireStationRestService.class);
+//	
+////@GetMapping(path="/firestation")
+//	public List<Person> getFirestation() {
+//	ArrayList<Person> lstPerson = new ArrayList<Person> ();
+//	
+//	logger.trace("getFirestation() has been called");
+//	
+//	Person test= new Person("Faiza","Ahmed");
+//	lstPerson.add(test);
+//	return lstPerson;
+//}
 }
