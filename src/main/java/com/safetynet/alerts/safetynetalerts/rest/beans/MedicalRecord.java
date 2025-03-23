@@ -1,11 +1,7 @@
-package com.safetynet.alerts.safetynetalerts.rest.model;
+package com.safetynet.alerts.safetynetalerts.rest.beans;
 
+import java.time.LocalDate;
 import java.util.List;
-
-
-// "firstName":"John", "lastName":"Boyd", "birthdate":"03/06/1984",
-//"medications":["aznol:350mg", "hydrapermazol:100mg"], "allergies":["nillacilan"] },
-
 
 public class MedicalRecord {
 	private String firstName;
@@ -13,7 +9,6 @@ public class MedicalRecord {
 	private String birthdate;
 	private List<String> medications;
 	private List<String> allergies;
-	
 	
 	public String getFirstName() {
 		return firstName;
@@ -27,6 +22,7 @@ public class MedicalRecord {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+	
 	public String getBirthdate() {
 		return birthdate;
 	}
@@ -45,18 +41,25 @@ public class MedicalRecord {
 	public void setAllergies(List<String> allergies) {
 		this.allergies = allergies;
 	}
-	public MedicalRecord(String firstName, String lastName, String birthdate, List<String> medications,
-			List<String> allergies) {
-		super();
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.birthdate = birthdate;
-		this.medications = medications;
-		this.allergies = allergies;
-	}
+	
 	
 	public MedicalRecord() {
 		
 	}
+	public MedicalRecord(String firstName, String lastName, String birthDate, List<String> medications,
+			List<String> allergies) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.birthdate = birthDate;
+		this.medications = medications;
+		this.allergies = allergies;
+	}
+	@Override
+	public String toString() {
+		return "MedicalRecord [firstName=" + firstName + ", lastName=" + lastName + ", birthDate=" + birthdate
+				+ ", medications=" + medications + ", allergies=" + allergies + "]";
+	}
+	
 
 }
