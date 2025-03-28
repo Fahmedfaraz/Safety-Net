@@ -1,6 +1,5 @@
-package com.safetynet.alerts.safetynetalerts.rest.beans;
+package com.safetynet.alerts.safetynetalerts.rest.model;
 
-import java.time.LocalDate;
 import java.util.List;
 
 public class MedicalRecord {

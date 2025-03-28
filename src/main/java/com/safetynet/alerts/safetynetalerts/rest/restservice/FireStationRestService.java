@@ -1,4 +1,4 @@
-package com.safetynet.alerts.safetynetalerts.rest.firestation;
+package com.safetynet.alerts.safetynetalerts.rest.restservice;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.safetynet.alerts.safetynetalerts.rest.beans.Person;
+import com.safetynet.alerts.safetynetalerts.rest.model.Person;
 
 @RestController
 public class FireStationRestService {

@@ -6,22 +6,35 @@ import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.safetynet.alerts.safetynetalerts.rest.beans.FireStation;
-import com.safetynet.alerts.safetynetalerts.rest.beans.MedicalRecord;
-import com.safetynet.alerts.safetynetalerts.rest.beans.Person;
+import com.safetynet.alerts.safetynetalerts.rest.model.FireStation;
+import com.safetynet.alerts.safetynetalerts.rest.model.MedicalRecord;
+import com.safetynet.alerts.safetynetalerts.rest.model.Person;
+import com.safetynet.alerts.safetynetalerts.service.DataService;
 
 
 @Component
 public class JsonDataLoader implements CommandLineRunner {
 	private static final Log logger = LogFactory.getLog(JsonDataLoader.class);
 
-    @Override
+	@Autowired
+	private DataService dataService;
+	
+//	public DataService getDataService() {
+//		return dataService;
+//	}
+//
+//	public void setDataService(DataService dataService) {
+//		this.dataService = dataService;
+//	}
+
+	@Override
     public void run(String... args) throws Exception {
         loadJsonData();
     }
@@ -35,12 +48,15 @@ public class JsonDataLoader implements CommandLineRunner {
 		JsonNode rootNode = objectMapper.readTree(inputStream);
 
 		List<Person> personList = objectMapper.convertValue(rootNode.path("persons"), new TypeReference<List<Person>>() {});
+		dataService.setPersons(personList);
 		logger.info("Person JSON data loaded.");
 	
 		List<FireStation> firestationList = objectMapper.convertValue(rootNode.path("firestations"), new TypeReference<List<FireStation>>() {});
+		dataService.setFirestations(firestationList);
 		logger.info("FireStation JSON data loaded.");  	
 	   
 		List<MedicalRecord> medicalrecordList = objectMapper.convertValue(rootNode.path("medicalrecords"), new TypeReference<List<MedicalRecord>>() {});
-        logger.info("MedicalRecord JSON data loaded.");
+		dataService.setMedicalrecords(medicalrecordList);
+		logger.info("MedicalRecord JSON data loaded.");
     }
 }

@@ -1,4 +1,4 @@
-package com.safetynet.alerts.safetynetalerts.rest.beans;
+package com.safetynet.alerts.safetynetalerts.rest.model;
 
 public class Person {
 	private String firstName;
