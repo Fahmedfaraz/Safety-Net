@@ -16,7 +16,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.safetynet.alerts.safetynetalerts.rest.model.FireStation;
 import com.safetynet.alerts.safetynetalerts.rest.model.MedicalRecord;
 import com.safetynet.alerts.safetynetalerts.rest.model.Person;
-import com.safetynet.alerts.safetynetalerts.service.DataService;
+import com.safetynet.alerts.safetynetalerts.service.DataRepository;
 
 
 @Component
@@ -24,15 +24,8 @@ public class JsonDataLoader implements CommandLineRunner {
 	private static final Log logger = LogFactory.getLog(JsonDataLoader.class);
 
 	@Autowired
-	private DataService dataService;
+	private DataRepository dataService;
 	
-//	public DataService getDataService() {
-//		return dataService;
-//	}
-//
-//	public void setDataService(DataService dataService) {
-//		this.dataService = dataService;
-//	}
 
 	@Override
     public void run(String... args) throws Exception {

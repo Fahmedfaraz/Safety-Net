@@ -1,4 +1,4 @@
-package com.safetynet.alerts.safetynetalerts.rest.restservice;
+package com.safetynet.alerts.safetynetalerts.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.safetynet.alerts.safetynetalerts.rest.model.Person;
 
 @RestController
-public class FireStationRestService {
+public class FireStationController {
 	
-	private static final Log logger = LogFactory.getLog(FireStationRestService.class);
+	private static final Log logger = LogFactory.getLog(FireStationController.class);
 	
 @GetMapping(path="/firestation")
 	public List<Person> getFirestation() {

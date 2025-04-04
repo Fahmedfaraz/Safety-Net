@@ -9,7 +9,7 @@ import com.safetynet.alerts.safetynetalerts.rest.model.MedicalRecord;
 import com.safetynet.alerts.safetynetalerts.rest.model.Person;
 
 @Component
-public class DataService {
+public class DataRepository {
 	private List<Person> persons;
 	private List<FireStation> firestations;
 	private List<MedicalRecord> medicalrecords;

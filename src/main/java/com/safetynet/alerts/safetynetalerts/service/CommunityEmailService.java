@@ -1,4 +1,4 @@
-package com.safetynet.alerts.safetynetalerts.rest.restservice;
+package com.safetynet.alerts.safetynetalerts.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,23 +6,20 @@ import java.util.List;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
 
+import com.safetynet.alerts.safetynetalerts.controller.CommunityEmailController;
 import com.safetynet.alerts.safetynetalerts.rest.model.Person;
-import com.safetynet.alerts.safetynetalerts.service.DataService;
-
-@RestController
-public class PersonRestService {
+@Service
+public class CommunityEmailService {
+	
 	@Autowired
-	public DataService dataService;
+	public DataRepository dataService;
+	private static final Log logger = LogFactory.getLog(CommunityEmailService.class);
 	
-	private static final Log logger = LogFactory.getLog(FireStationRestService.class);
-
-	@GetMapping("/communityEmail")
-	public List<String> getCommunityEmail(@RequestParam(value = "city") String city) {
-	
+	public List<String> getCommunityEmail(String city) {
+		
 		List<String> communityEmail = new ArrayList<String>();
 //		List<Person> personsList = dataService.getPersons();
 //		for (Person person : personsList) {
@@ -40,5 +37,4 @@ public class PersonRestService {
 			logger.error("City not found");
 		return communityEmail;
 	}
-
 }
