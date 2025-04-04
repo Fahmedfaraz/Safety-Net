@@ -21,6 +21,8 @@ public class PersonController {
 	@Autowired
 	public PersonService personService;
 	
+	private static final Log logger = LogFactory.getLog(PersonController.class);
+		
 	@GetMapping("/personInfo")
 	public List<PersonInfo> getPersonInfo(@RequestParam(value = "firstName") String firstName, @RequestParam(value = "lastName") String lastName)  {
 		return personService.getPersonInfo(firstName,lastName);

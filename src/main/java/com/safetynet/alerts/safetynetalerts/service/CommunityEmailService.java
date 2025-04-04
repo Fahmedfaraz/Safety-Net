@@ -7,9 +7,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestParam;
 
-import com.safetynet.alerts.safetynetalerts.controller.CommunityEmailController;
 import com.safetynet.alerts.safetynetalerts.rest.model.Person;
 @Service
 public class CommunityEmailService {

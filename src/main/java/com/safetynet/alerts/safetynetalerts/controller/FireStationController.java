@@ -5,25 +5,26 @@ import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.safetynet.alerts.safetynetalerts.rest.model.Person;
+import com.safetynet.alerts.safetynetalerts.service.CommunityEmailService;
+import com.safetynet.alerts.safetynetalerts.service.FireStationService;
 
 @RestController
 public class FireStationController {
 	
+	@Autowired
+	public FireStationService fireStationService;
+	
 	private static final Log logger = LogFactory.getLog(FireStationController.class);
 	
-@GetMapping(path="/firestation")
-	public List<Person> getFirestation() {
-	ArrayList<Person> lstPerson = new ArrayList<Person> ();
-	
-	logger.trace("getFirestation() has been called");
-	
-//	Person test= new Person("Faiza","Ahmed");
-//	lstPerson.add(test);
-	return lstPerson;
+@GetMapping(path="/phoneAlert")
+	public List<String> getPhoneNumber(@RequestParam(value = "firestation") int firestation) {
+		return fireStationService.getPhoneNumbers(firestation);
 }
 }
 
