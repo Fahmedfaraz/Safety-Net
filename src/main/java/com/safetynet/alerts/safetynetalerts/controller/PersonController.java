@@ -1,6 +1,5 @@
 package com.safetynet.alerts.safetynetalerts.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
@@ -10,9 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.safetynet.alerts.safetynetalerts.rest.model.Person;
 import com.safetynet.alerts.safetynetalerts.rest.model.PersonInfo;
-import com.safetynet.alerts.safetynetalerts.service.DataRepository;
 import com.safetynet.alerts.safetynetalerts.service.PersonService;
 
 @RestController

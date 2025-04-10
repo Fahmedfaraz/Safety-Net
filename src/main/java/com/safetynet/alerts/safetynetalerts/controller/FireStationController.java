@@ -1,6 +1,6 @@
 package com.safetynet.alerts.safetynetalerts.controller;
 
-import java.util.ArrayList;
+import java.io.UnsupportedEncodingException;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
@@ -10,8 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.safetynet.alerts.safetynetalerts.rest.model.Person;
-import com.safetynet.alerts.safetynetalerts.service.CommunityEmailService;
+import com.safetynet.alerts.safetynetalerts.rest.model.PersonAddress;
 import com.safetynet.alerts.safetynetalerts.service.FireStationService;
 
 @RestController
@@ -25,6 +24,11 @@ public class FireStationController {
 @GetMapping(path="/phoneAlert")
 	public List<String> getPhoneNumber(@RequestParam(value = "firestation") int firestation) {
 		return fireStationService.getPhoneNumbers(firestation);
+}
+
+@GetMapping(path="/fire")
+public List<PersonAddress> getFireStationNumber(@RequestParam(value = "address") String address) throws UnsupportedEncodingException {
+	return fireStationService.getFireStationNumber(address);
 }
 }
 

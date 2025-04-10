@@ -1042,3 +1042,659 @@ java.lang.NullPointerException: Cannot invoke "com.safetynet.alerts.safetynetale
  20704 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
 2025-04-03T20:40:38.890-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
  20704 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2025-04-04T13:24:35.793-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 16684 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 16684 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-04T13:24:35.814-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-04T13:24:35.877-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 16684 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-04T13:24:35.878-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 16684 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-04T13:24:37.384-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 16684 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-04T13:24:37.433-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 JPA repository interfaces.
+ 16684 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JPA repository interfaces.
+2025-04-04T13:24:38.923-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-04T13:24:39.046-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3164 ms
+ 16684 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3164 ms
+2025-04-04T13:24:40.855-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-04T13:24:41.372-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 16684 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-04T13:24:41.515-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 16684 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-04T13:24:42.836-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5d8c22f6-434f-459e-b3bb-ebb8fa23047a'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5d8c22f6-434f-459e-b3bb-ebb8fa23047a'
+2025-04-04T13:24:42.947-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-04T13:24:42.960-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-04T13:24:43.120-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-04T13:24:43.136-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 7.936 seconds (process running for 8.684)
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 7.936 seconds (process running for 8.684)
+2025-04-04T13:24:43.343-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-04T13:24:43.357-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-04T13:24:43.365-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-04T13:25:54.629-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 16684 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-04-04T13:25:54.633-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ 16684 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 3 ms
+2025-04-04T13:36:13.651-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+ 16684 --- [safetynet-alerts] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-04T13:36:13.657-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+ 16684 --- [safetynet-alerts] [Thread-5] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-04T13:36:13.724-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+ 16684 --- [safetynet-alerts] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-04-04T13:36:13.733-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 16684 --- [safetynet-alerts] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-04T13:36:13.746-04:00  WARN [traceId=, spanId=] org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+ 16684 --- [safetynet-alerts] [Thread-5] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-04T13:36:13.857-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 16684 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 16684 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-04T13:36:13.859-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-04T13:36:14.236-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 16684 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-04T13:36:14.241-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+ 16684 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-04-04T13:36:14.402-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-04T13:36:14.432-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 570 ms
+ 16684 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 570 ms
+2025-04-04T13:36:14.589-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-04T13:36:14.616-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 16684 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-04T13:36:14.689-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 16684 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-04T13:36:15.039-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:4d3d7399-625e-44c1-ab99-086fa564f642'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:4d3d7399-625e-44c1-ab99-086fa564f642'
+2025-04-04T13:36:15.081-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-04T13:36:15.088-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-04T13:36:15.113-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-04T13:36:15.121-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 1.31 seconds (process running for 700.67)
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 1.31 seconds (process running for 700.67)
+2025-04-04T13:36:15.132-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-04T13:36:15.135-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-04T13:36:15.144-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-04T13:36:15.146-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 16684 --- [safetynet-alerts] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-04T13:39:07.230-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+ 16684 --- [safetynet-alerts] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-04T13:39:07.232-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+ 16684 --- [safetynet-alerts] [Thread-7] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-04T13:39:07.278-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+ 16684 --- [safetynet-alerts] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-04-04T13:39:07.281-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 16684 --- [safetynet-alerts] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-04T13:39:07.283-04:00  WARN [traceId=, spanId=] org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+ 16684 --- [safetynet-alerts] [Thread-7] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-04T13:39:07.382-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 16684 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 16684 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-04T13:39:07.383-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-04T13:39:07.722-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 16684 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-04T13:39:07.727-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+ 16684 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-04-04T13:39:07.882-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-04T13:39:07.912-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 526 ms
+ 16684 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 526 ms
+2025-04-04T13:39:08.057-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-04T13:39:08.081-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 16684 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-04T13:39:08.165-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 16684 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-04T13:39:08.572-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:28b3bd2e-eb79-4731-bad4-352727a74386'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:28b3bd2e-eb79-4731-bad4-352727a74386'
+2025-04-04T13:39:08.594-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-04T13:39:08.600-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-04T13:39:08.647-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-04T13:39:08.653-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 1.314 seconds (process running for 874.202)
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 1.314 seconds (process running for 874.202)
+2025-04-04T13:39:08.665-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-04T13:39:08.669-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-04T13:39:08.676-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-04T13:39:08.678-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 16684 --- [safetynet-alerts] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-04T13:39:34.729-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+ 16684 --- [safetynet-alerts] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-04-04T13:39:34.732-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+ 16684 --- [safetynet-alerts] [Thread-12] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-04T13:39:34.782-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+ 16684 --- [safetynet-alerts] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-04-04T13:39:34.785-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 16684 --- [safetynet-alerts] [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-04T13:39:34.787-04:00  WARN [traceId=, spanId=] org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+ 16684 --- [safetynet-alerts] [Thread-12] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-04T13:39:34.905-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 16684 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 16684 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-04T13:39:34.906-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-04T13:39:35.225-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 16684 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-04T13:39:35.230-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+ 16684 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-04-04T13:39:35.370-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-04T13:39:35.396-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 487 ms
+ 16684 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 487 ms
+2025-04-04T13:39:35.509-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-04T13:39:35.524-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 16684 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-04T13:39:35.575-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 16684 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-04T13:39:35.893-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1e1577ec-8891-4d8e-9a3d-54cf469f2de7'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1e1577ec-8891-4d8e-9a3d-54cf469f2de7'
+2025-04-04T13:39:35.918-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-04T13:39:35.923-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-04T13:39:35.942-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-04T13:39:35.946-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 1.108 seconds (process running for 901.495)
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 1.108 seconds (process running for 901.495)
+2025-04-04T13:39:35.958-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-04T13:39:35.961-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-04T13:39:35.968-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-04T13:39:35.970-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 16684 --- [safetynet-alerts] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-04T13:39:43.522-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+ 16684 --- [safetynet-alerts] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-04T13:39:43.525-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+ 16684 --- [safetynet-alerts] [Thread-16] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-04T13:39:43.574-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+ 16684 --- [safetynet-alerts] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-04-04T13:39:43.577-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 16684 --- [safetynet-alerts] [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-04T13:39:43.577-04:00  WARN [traceId=, spanId=] org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+ 16684 --- [safetynet-alerts] [Thread-16] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-04T13:39:43.686-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 16684 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 16684 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-04T13:39:43.687-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-04T13:39:43.972-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 16684 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-04T13:39:43.976-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+ 16684 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-04-04T13:39:44.098-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-04T13:39:44.119-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 431 ms
+ 16684 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 431 ms
+2025-04-04T13:39:44.227-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-04T13:39:44.253-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 16684 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-04T13:39:44.299-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 16684 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-04T13:39:44.575-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:4f12b546-f707-4ff4-a8e2-47fd12fa7247'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:4f12b546-f707-4ff4-a8e2-47fd12fa7247'
+2025-04-04T13:39:44.595-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-04T13:39:44.604-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-04T13:39:44.627-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-04T13:39:44.635-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 1.008 seconds (process running for 910.183)
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 1.008 seconds (process running for 910.183)
+2025-04-04T13:39:44.649-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-04T13:39:44.653-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-04T13:39:44.660-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-04T13:39:44.662-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 16684 --- [safetynet-alerts] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-04T14:06:23.324-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+ 16684 --- [safetynet-alerts] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-04T14:06:23.342-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+ 16684 --- [safetynet-alerts] [Thread-20] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-04T14:06:23.398-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+ 16684 --- [safetynet-alerts] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-04-04T14:06:23.411-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 16684 --- [safetynet-alerts] [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-04T14:06:23.419-04:00  WARN [traceId=, spanId=] org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+ 16684 --- [safetynet-alerts] [Thread-20] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-04T14:06:23.627-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 16684 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 16684 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-04T14:06:23.628-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 16684 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-04T14:06:23.891-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 16684 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-04T14:06:23.896-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+ 16684 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-04-04T14:06:24.046-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-04T14:06:24.064-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 433 ms
+ 16684 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 433 ms
+2025-04-04T14:06:24.187-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 16684 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-04T14:06:24.205-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 16684 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-04T14:06:24.271-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 16684 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09T16:13:02.522-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 21356 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 21356 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 21356 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-09T16:13:02.545-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 21356 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T16:13:02.609-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 21356 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T16:13:02.610-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 21356 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T16:13:04.123-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 21356 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09T16:13:04.168-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 JPA repository interfaces.
+ 21356 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 JPA repository interfaces.
+2025-04-09T16:13:05.500-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 21356 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-09T16:13:05.617-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2995 ms
+ 21356 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2995 ms
+2025-04-09T16:13:07.281-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 21356 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09T16:13:07.894-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 21356 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09T16:13:08.067-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 21356 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09T16:13:09.282-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c5308608-1fcc-4d48-92c2-bc8403ab01ff'
+ 21356 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c5308608-1fcc-4d48-92c2-bc8403ab01ff'
+2025-04-09T16:13:09.375-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 21356 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T16:13:09.401-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 21356 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-09T16:13:09.573-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 21356 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T16:13:09.600-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 7.664 seconds (process running for 8.362)
+ 21356 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 7.664 seconds (process running for 8.362)
+2025-04-09T16:13:09.775-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 21356 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-09T16:13:09.790-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 21356 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-09T16:13:09.800-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 21356 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-09T16:13:27.863-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 21356 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-04-09T16:13:27.869-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+ 21356 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 4 ms
+2025-04-09T16:18:15.779-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 12692 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 12692 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 12692 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-09T16:18:15.801-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 12692 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T16:18:15.890-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 12692 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T16:18:15.891-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 12692 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T16:18:17.750-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 12692 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09T16:18:17.797-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 JPA repository interfaces.
+ 12692 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 0 JPA repository interfaces.
+2025-04-09T16:18:19.440-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 12692 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-09T16:18:19.588-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3692 ms
+ 12692 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3692 ms
+2025-04-09T16:18:21.580-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 12692 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09T16:18:22.386-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 12692 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09T16:18:22.564-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 12692 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09T16:18:24.012-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:636a5d9d-5b86-43b5-b1e5-f2c385150215'
+ 12692 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:636a5d9d-5b86-43b5-b1e5-f2c385150215'
+2025-04-09T16:18:24.127-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 12692 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T16:18:24.151-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 12692 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-09T16:18:24.345-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 12692 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T16:18:24.370-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 9.62 seconds (process running for 11.05)
+ 12692 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 9.62 seconds (process running for 11.05)
+2025-04-09T16:18:24.577-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 12692 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-09T16:18:24.594-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 12692 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-09T16:18:24.605-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 12692 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-09T16:19:09.997-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 12692 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-04-09T16:19:10.002-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ 12692 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 3 ms
+2025-04-09T16:25:01.271-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 42040 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 42040 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 42040 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-09T16:25:01.291-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 42040 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T16:25:01.369-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 42040 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T16:25:01.369-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 42040 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T16:25:02.967-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 42040 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09T16:25:03.018-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 JPA repository interfaces.
+ 42040 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JPA repository interfaces.
+2025-04-09T16:25:04.395-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 42040 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-09T16:25:04.504-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3133 ms
+ 42040 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3133 ms
+2025-04-09T16:25:06.590-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 42040 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09T16:25:07.223-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 42040 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09T16:25:07.395-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 42040 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09T16:25:08.777-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c428061f-5a4f-46e2-a424-c513f78e0d0c'
+ 42040 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c428061f-5a4f-46e2-a424-c513f78e0d0c'
+2025-04-09T16:25:08.923-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 42040 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T16:25:08.945-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 42040 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-09T16:25:09.113-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 42040 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T16:25:09.138-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 8.679 seconds (process running for 9.681)
+ 42040 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 8.679 seconds (process running for 9.681)
+2025-04-09T16:25:09.331-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 42040 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-09T16:25:09.347-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 42040 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-09T16:25:09.358-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 42040 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-09T16:25:14.573-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 42040 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-04-09T16:25:14.575-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 42040 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2025-04-09T16:26:33.556-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 9080 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 9080 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 9080 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-09T16:26:33.577-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 9080 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T16:26:33.663-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 9080 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T16:26:33.664-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 9080 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T16:26:35.349-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 9080 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09T16:26:35.392-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 JPA repository interfaces.
+ 9080 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 JPA repository interfaces.
+2025-04-09T16:26:36.715-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 9080 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-09T16:26:36.835-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3169 ms
+ 9080 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3169 ms
+2025-04-09T16:26:38.543-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 9080 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09T16:26:39.261-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 9080 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09T16:26:39.428-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 9080 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09T16:26:40.799-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:e68e097d-0df1-40f9-9d9b-ebc149bc8589'
+ 9080 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:e68e097d-0df1-40f9-9d9b-ebc149bc8589'
+2025-04-09T16:26:40.919-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 9080 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T16:26:40.937-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 9080 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-09T16:26:41.075-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 9080 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T16:26:41.104-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 8.307 seconds (process running for 9.548)
+ 9080 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 8.307 seconds (process running for 9.548)
+2025-04-09T16:26:41.294-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 9080 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-09T16:26:41.308-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 9080 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-09T16:26:41.322-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 9080 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-09T16:26:55.193-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 9080 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-04-09T16:26:55.195-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 9080 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2025-04-09T16:27:58.503-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+ 9080 --- [safetynet-alerts] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-09T16:27:58.511-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+ 9080 --- [safetynet-alerts] [Thread-5] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T16:28:28.622-04:00  INFO [traceId=, spanId=] org.springframework.context.support.DefaultLifecycleProcessor - Shutdown phase 2147482623 ends with 1 bean still running after timeout of 30000ms: [webServerGracefulShutdown]
+ 9080 --- [safetynet-alerts] [Thread-5] o.s.c.s.DefaultLifecycleProcessor        : Shutdown phase 2147482623 ends with 1 bean still running after timeout of 30000ms: [webServerGracefulShutdown]
+2025-04-09T16:28:28.630-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown aborted with one or more requests still active
+ 9080 --- [safetynet-alerts] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown aborted with one or more requests still active
+2025-04-09T16:28:33.637-04:00  WARN [traceId=, spanId=] org.apache.tomcat.util.net.NioEndpoint - The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+ 9080 --- [safetynet-alerts] [Thread-5] o.a.t.u.n.NioEndpoint                    : The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+2025-04-09T16:28:33.655-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 9080 --- [safetynet-alerts] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09T16:28:33.669-04:00  WARN [traceId=, spanId=] org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+ 9080 --- [safetynet-alerts] [Thread-5] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-09T16:28:36.176-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 9080 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 9080 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 9080 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-09T16:28:36.178-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 9080 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T16:28:36.811-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 9080 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09T16:28:36.821-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+ 9080 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2025-04-09T16:28:37.057-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 9080 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-09T16:28:37.090-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 906 ms
+ 9080 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 906 ms
+2025-04-09T16:28:37.298-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 9080 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09T16:28:37.327-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 9080 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09T16:28:37.436-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 9080 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09T16:28:38.011-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5802e07c-3440-441f-8225-727bdc168f65'
+ 9080 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5802e07c-3440-441f-8225-727bdc168f65'
+2025-04-09T16:28:38.049-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 9080 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T16:28:38.062-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 9080 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-09T16:28:38.100-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 9080 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T16:28:38.109-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 2.001 seconds (process running for 126.553)
+ 9080 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 2.001 seconds (process running for 126.553)
+2025-04-09T16:28:38.123-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 9080 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-09T16:28:38.125-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 9080 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-09T16:28:38.130-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 9080 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-09T16:28:38.132-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 9080 --- [safetynet-alerts] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T16:28:39.512-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 9080 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-04-09T16:28:39.516-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ 9080 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 3 ms
+2025-04-09T16:29:07.856-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 21876 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 21876 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 21876 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-09T16:29:07.878-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 21876 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T16:29:07.982-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 21876 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T16:29:07.982-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 21876 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T16:29:10.133-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 21876 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09T16:29:10.180-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 JPA repository interfaces.
+ 21876 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 JPA repository interfaces.
+2025-04-09T16:29:12.004-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 21876 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-09T16:29:12.176-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4190 ms
+ 21876 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4190 ms
+2025-04-09T16:29:14.188-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 21876 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09T16:29:14.968-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 21876 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09T16:29:15.171-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 21876 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09T16:29:16.894-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:aad307c3-eb73-4cd7-b8c9-7d963b44e729'
+ 21876 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:aad307c3-eb73-4cd7-b8c9-7d963b44e729'
+2025-04-09T16:29:17.054-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 21876 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T16:29:17.077-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 21876 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-09T16:29:17.278-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 21876 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T16:29:17.311-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 10.492 seconds (process running for 11.983)
+ 21876 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 10.492 seconds (process running for 11.983)
+2025-04-09T16:29:17.551-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 21876 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-09T16:29:17.564-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 21876 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-09T16:29:17.577-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 21876 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-09T16:29:23.524-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 21876 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-04-09T16:29:23.525-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+ 21876 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2025-04-09T16:48:03.329-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 8536 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 8536 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-09T16:48:03.352-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T16:48:03.430-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ 8536 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-09T16:48:03.430-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ 8536 --- [safetynet-alerts] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-09T16:48:04.730-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 8536 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09T16:48:04.765-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+ 8536 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2025-04-09T16:48:05.919-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-09T16:48:06.037-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2600 ms
+ 8536 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2600 ms
+2025-04-09T16:48:07.736-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09T16:48:08.305-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 8536 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09T16:48:08.455-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 8536 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09T16:48:09.638-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:95798359-ac17-4510-8491-15ce2a88119d'
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:95798359-ac17-4510-8491-15ce2a88119d'
+2025-04-09T16:48:09.741-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T16:48:09.757-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-09T16:48:09.895-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T16:48:09.921-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 7.169 seconds (process running for 7.92)
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 7.169 seconds (process running for 7.92)
+2025-04-09T16:48:10.076-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-09T16:48:10.094-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-09T16:48:10.105-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-09T16:48:23.509-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 8536 --- [safetynet-alerts] [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-04-09T16:48:23.514-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+ 8536 --- [safetynet-alerts] [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 3 ms
+2025-04-09T16:56:17.818-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+ 8536 --- [safetynet-alerts] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-09T16:56:17.834-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+ 8536 --- [safetynet-alerts] [Thread-5] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T16:56:17.888-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+ 8536 --- [safetynet-alerts] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-04-09T16:56:17.895-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 8536 --- [safetynet-alerts] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09T16:56:17.907-04:00  WARN [traceId=, spanId=] org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+ 8536 --- [safetynet-alerts] [Thread-5] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-09T16:56:18.012-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 8536 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 8536 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-09T16:56:18.013-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T16:56:18.387-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 8536 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09T16:56:18.391-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+ 8536 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-04-09T16:56:18.550-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-09T16:56:18.571-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 554 ms
+ 8536 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 554 ms
+2025-04-09T16:56:18.722-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09T16:56:18.746-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 8536 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09T16:56:18.803-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 8536 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09T16:56:19.190-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:071677db-c834-470c-8b37-0b04dbb1e897'
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:071677db-c834-470c-8b37-0b04dbb1e897'
+2025-04-09T16:56:19.228-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T16:56:19.233-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-09T16:56:19.255-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T16:56:19.264-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 1.298 seconds (process running for 497.264)
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 1.298 seconds (process running for 497.264)
+2025-04-09T16:56:19.278-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-09T16:56:19.282-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-09T16:56:19.288-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-09T16:56:19.292-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 8536 --- [safetynet-alerts] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-09T16:56:26.779-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+ 8536 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-04-09T16:56:26.782-04:00  INFO [traceId=, spanId=] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+ 8536 --- [safetynet-alerts] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2025-04-09T17:13:16.460-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+ 8536 --- [safetynet-alerts] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-09T17:13:16.464-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+ 8536 --- [safetynet-alerts] [Thread-7] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-09T17:13:16.509-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+ 8536 --- [safetynet-alerts] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-04-09T17:13:16.514-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+ 8536 --- [safetynet-alerts] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09T17:13:16.516-04:00  WARN [traceId=, spanId=] org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+ 8536 --- [safetynet-alerts] [Thread-7] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-04-09T17:13:16.658-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Starting SafetynetAlertsApplication using Java 17.0.9 with PID 8536 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Starting SafetynetAlertsApplication using Java 17.0.9 with PID 8536 (C:\Users\faiza\eclipse-workspace\safetynet-alerts\target\classes started by faiza in C:\Users\faiza\eclipse-workspace\safetynet-alerts)
+2025-04-09T17:13:16.660-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-04-09T17:13:17.026-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ 8536 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-09T17:13:17.030-04:00  INFO [traceId=, spanId=] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+ 8536 --- [safetynet-alerts] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-04-09T17:13:17.179-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-04-09T17:13:17.227-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 564 ms
+ 8536 --- [safetynet-alerts] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 564 ms
+2025-04-09T17:13:17.404-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-09T17:13:17.436-04:00  INFO [traceId=, spanId=] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+ 8536 --- [safetynet-alerts] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-09T17:13:17.526-04:00  WARN [traceId=, spanId=] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ 8536 --- [safetynet-alerts] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-09T17:13:17.919-04:00  INFO [traceId=, spanId=] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:2ac1306f-299a-4c05-a43e-914c6f9338bd'
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:2ac1306f-299a-4c05-a43e-914c6f9338bd'
+2025-04-09T17:13:17.943-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-09T17:13:17.948-04:00  INFO [traceId=, spanId=] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 15 endpoints beneath base path '/actuator'
+2025-04-09T17:13:17.968-04:00  INFO [traceId=, spanId=] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+ 8536 --- [safetynet-alerts] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-04-09T17:13:17.977-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.SafetynetAlertsApplication - Started SafetynetAlertsApplication in 1.386 seconds (process running for 1515.976)
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.SafetynetAlertsApplication       : Started SafetynetAlertsApplication in 1.386 seconds (process running for 1515.976)
+2025-04-09T17:13:17.988-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - Person JSON data loaded.
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : Person JSON data loaded.
+2025-04-09T17:13:17.991-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - FireStation JSON data loaded.
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : FireStation JSON data loaded.
+2025-04-09T17:13:17.997-04:00  INFO [traceId=, spanId=] com.safetynet.alerts.safetynetalerts.dataloader.JsonDataLoader - MedicalRecord JSON data loaded.
+ 8536 --- [safetynet-alerts] [restartedMain] c.s.a.s.d.JsonDataLoader                 : MedicalRecord JSON data loaded.
+2025-04-09T17:13:17.999-04:00  INFO [traceId=, spanId=] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+ 8536 --- [safetynet-alerts] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
