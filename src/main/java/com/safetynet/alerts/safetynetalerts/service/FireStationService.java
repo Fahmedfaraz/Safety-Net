@@ -14,7 +14,6 @@ import com.safetynet.alerts.safetynetalerts.rest.model.FireStation;
 import com.safetynet.alerts.safetynetalerts.rest.model.MedicalRecord;
 import com.safetynet.alerts.safetynetalerts.rest.model.Person;
 import com.safetynet.alerts.safetynetalerts.rest.model.PersonAddress;
-import com.safetynet.alerts.safetynetalerts.rest.model.PersonInfo;
 
 @Service
 public class FireStationService {
@@ -38,16 +37,17 @@ public class FireStationService {
 		}
 		return phoneNumbers;
 	}
-	
-	// This function return fire station number , each person’s name, phone number, age, medications with dosage, and allergies at a particular address. 
+
+	// This function return fire station number , each person’s name, phone number,
+	// age, medications with dosage, and allergies at a particular address.
 	public List<PersonAddress> getFireStationNumber(String address) throws UnsupportedEncodingException {
 		address = URLDecoder.decode(address, "UTF-8");
 		PersonService ps = new PersonService();
 		List<PersonAddress> personAddressInfoList = new ArrayList<PersonAddress>();
 		for (FireStation fireStation : dataService.getFirestations()) {
-			
+
 			if (fireStation.getAddress().equals(address)) {
-				
+
 				for (Person person : dataService.getPersons()) {
 					if (person.getAddress().equals(address)) {
 						PersonAddress personAddress = new PersonAddress();
@@ -67,9 +67,42 @@ public class FireStationService {
 						personAddressInfoList.add(personAddress);
 					}
 				}
-				break;	
+				break;
 			}
 		}
 		return personAddressInfoList;
 	}
+
+	public List<FireStation> getAllFirestation() {
+		return dataService.getFirestations();
+	}
+
+	public void addNewfirestation(FireStation fireStation) {
+		dataService.getFirestations().add(fireStation);
+	}
+
+	public void deleteFireStationAddress(String address) {
+		for (FireStation fireStation : dataService.getFirestations()) {
+
+			if (fireStation.getAddress().equals(address)) {
+				dataService.getFirestations().remove(address);
+				break;
+			}
+			}
+		
+	}
+
+	public FireStation updateFireStationNum(FireStation updatefireStation) {
+		for (FireStation fireStation : dataService.getFirestations()) {
+			if(fireStation.getAddress().equalsIgnoreCase(updatefireStation.getAddress())) {
+				fireStation.setStation(updatefireStation.getStation());
+				break;
+			}
+		}
+		return updatefireStation;
+	}
+
+	
+
+	
 }

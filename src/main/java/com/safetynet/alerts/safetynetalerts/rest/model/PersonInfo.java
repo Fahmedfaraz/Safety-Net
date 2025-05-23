@@ -6,8 +6,6 @@ public class PersonInfo {
 	private String firstName;
 	private String lastName;
 	private String address;
-//	private String city;
-//	private String zip;
 	private String age;
 	private String email;
 	private List<String> medications;

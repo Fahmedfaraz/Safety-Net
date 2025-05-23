@@ -1,5 +1,8 @@
 package com.safetynet.alerts.safetynetalerts.rest.model;
 
+import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
+
+@JsonPOJOBuilder
 public class FireStation {
 	 private String address;
 	 private int station;
