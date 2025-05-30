@@ -1,5 +1,6 @@
 package com.safetynet.alerts.safetynetalerts.test.controller;
 
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -103,6 +104,11 @@ class FireStationControllerTest {
                 .contentType("application/json")
                 .content(mapper.writeValueAsString(fireStation)))
                 .andExpect(status().is2xxSuccessful());
+	}
+	@Test
+	void testDeleteFireStationAddress() throws Exception {
+		mockMvc.perform(delete("/firestation/address?address=951 LoneTree Rd"))
+		.andExpect(status().is2xxSuccessful());
 	}
 
 }

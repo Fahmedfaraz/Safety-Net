@@ -14,6 +14,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Mockito.*;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
@@ -94,6 +95,21 @@ class FireStationServiceTest {
 	}
 
 	@Test
+	void testGetPhoneNumbers_NoPhoneForFirestation() {
+		given(dataService.getFirestations())
+        .willReturn(List.of(fireStation1));
+		
+		given(dataService.getPersons())
+        .willReturn(List.of(person));
+		
+		
+		List<String> test= fireStationService.getPhoneNumbers(3);
+		System.out.println( test);
+		
+		assertThat(test).isNotNull();
+        assertThat(test.size()).isEqualTo(0);
+	}
+	@Test
 	void testGetFireStationNumber() {
 		
 		given(dataService.getFirestations())
@@ -114,9 +130,42 @@ class FireStationServiceTest {
 			e.printStackTrace();
 		}
 		System.out.println( test);
+		test.get(0).getPhone();
+		test.get(0).getStation();
+		test.get(0).getFirstName();
+		test.get(0).getLastName();
+		test.get(0).getAge();
+		test.get(0).getMedications();
+		test.get(0).getAllergies();
 		
 		assertThat(test).isNotNull();
         assertThat(test.size()).isEqualTo(1);
+	}
+	
+	@Test
+	void testGetFireStationNumber_AddressDoesNotExist() {
+		
+		given(dataService.getFirestations())
+        .willReturn(List.of(fireStation));
+		
+		given(dataService.getPersons())
+        .willReturn(List.of(person));
+		
+		given(dataService.getMedicalrecords())
+        .willReturn(List.of(mRecord));
+		
+		
+		List<PersonAddress> test = null;
+		try {
+			test = fireStationService.getFireStationNumber("1234 Main St");
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println( test);
+		
+		assertThat(test).isNotNull();
+        assertThat(test.size()).isEqualTo(0);
 	}
 
 	@Test
@@ -140,8 +189,9 @@ class FireStationServiceTest {
 	/*	given(dataService.getFirestations().add(fireStation2));
 		
 		
-		fireStationService.addNewfirestation( fireStation2 );*/
-		
+		fireStationService.addNewfirestation( fireStation2 );
+		verify()
+	*/	
 //		assertThat(test).isNotNull();
 //        assertThat(test.size()).isEqualTo(3);
 	}

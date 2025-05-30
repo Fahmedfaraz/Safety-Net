@@ -45,15 +45,15 @@ public class MedicalRecord {
 	public MedicalRecord() {
 		
 	}
-	public MedicalRecord(String firstName, String lastName, String birthDate, List<String> medications,
-			List<String> allergies) {
-		super();
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.birthdate = birthDate;
-		this.medications = medications;
-		this.allergies = allergies;
-	}
+//	public MedicalRecord(String firstName, String lastName, String birthDate, List<String> medications,
+//			List<String> allergies) {
+//		super();
+//		this.firstName = firstName;
+//		this.lastName = lastName;
+//		this.birthdate = birthDate;
+//		this.medications = medications;
+//		this.allergies = allergies;
+//	}
 	@Override
 	public String toString() {
 		return "MedicalRecord [firstName=" + firstName + ", lastName=" + lastName + ", birthDate=" + birthdate
