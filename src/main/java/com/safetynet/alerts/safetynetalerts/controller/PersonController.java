@@ -1,21 +1,26 @@
 package com.safetynet.alerts.safetynetalerts.controller;
 
 import java.io.UnsupportedEncodingException;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.safetynet.alerts.safetynetalerts.exception.UserNotFoundException;
 import com.safetynet.alerts.safetynetalerts.rest.model.ChildAlert;
+import com.safetynet.alerts.safetynetalerts.rest.model.FireStation;
 import com.safetynet.alerts.safetynetalerts.rest.model.MedicalRecord;
 import com.safetynet.alerts.safetynetalerts.rest.model.Person;
 import com.safetynet.alerts.safetynetalerts.rest.model.PersonInfo;
@@ -33,8 +38,13 @@ public class PersonController {
 		
 	@GetMapping("/personInfo")
 	public List<PersonInfo> getPersonInfo(@RequestParam(value = "firstName") String firstName, @RequestParam(value = "lastName") String lastName)  {
-		return personService.getPersonInfo(firstName,lastName);
-				 
+		List<PersonInfo> listPersonInfos = personService.getPersonInfo(firstName,lastName);
+		if( null == listPersonInfos || listPersonInfos.size()==0) {
+			 throw new UserNotFoundException("Not found.");
+			
+		 }
+		
+		return listPersonInfos;
 	}
 	
 	@GetMapping("/childAlert")
@@ -63,11 +73,11 @@ public class PersonController {
 		personService.addMedicalRecord(medRecord);
 	}
 	
-	@DeleteMapping("/deletePerson")
+	@DeleteMapping("/person")
     public void deletePerson(@RequestParam (value = "firstName") String firstName, @RequestParam (value = "lastName") String lastName) {
 		personService.deletePerson(firstName,lastName);
     }
-	@DeleteMapping("/deleteMedicalRecord")
+	@DeleteMapping("/medicalRecord")
     public void deleteMedicalRecord(@RequestParam (value = "firstName") String firstName, @RequestParam (value = "lastName") String lastName) {
 		personService.deleteMedicalRecord(firstName,lastName);
     }

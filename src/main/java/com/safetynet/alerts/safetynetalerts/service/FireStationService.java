@@ -85,7 +85,7 @@ public class FireStationService {
 		for (FireStation fireStation : dataService.getFirestations()) {
 
 			if (fireStation.getAddress().equals(address)) {
-				dataService.getFirestations().remove(address);
+				dataService.getFirestations().remove(fireStation);
 				break;
 			}
 			}

@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.safetynet.alerts.safetynetalerts.exception.UserNotFoundException;
 import com.safetynet.alerts.safetynetalerts.rest.model.FireStation;
 import com.safetynet.alerts.safetynetalerts.rest.model.ListOfHousehold;
 import com.safetynet.alerts.safetynetalerts.rest.model.MedicalRecord;
@@ -74,13 +75,25 @@ public class FireStationController {
 	 */
 	@GetMapping(path = "/flood/stations")
 	public List<ListOfHousehold> getHouseholdList(@RequestParam List<Integer> stations) {
-		return listOfHouseholdService.getPersonInfo(stations);
+		 List<ListOfHousehold> listOfHouseholds =  listOfHouseholdService.getPersonInfo(stations);
+		
+		 if( null == listOfHouseholds) {
+			 throw new UserNotFoundException("Not found.");
+		 }
+		 
+		return listOfHouseholds; 
 	}
 
 	//this method returns all fireStations data
 	@GetMapping(path = "/allstations")
 	public List<FireStation> getAllFirestation() {
-		return fireStationService.getAllFirestation();
+		List<FireStation> listFireStations = fireStationService.getAllFirestation();
+		
+		if( null == listFireStations) {
+			 throw new UserNotFoundException("Not found.");
+		 }
+		
+		return listFireStations;
 
 	}
 

@@ -3,8 +3,9 @@ package com.safetynet.alerts.safetynetalerts.rest.model;
 import java.util.List;
 
 public class ListOfHousehold {
-	private List<MemberOfHousehold> householdMember;
 	private String address;
+	private List<MemberOfHousehold> householdMember;
+	
 	
 	public List<MemberOfHousehold> getHouseholdMember() {
 		return householdMember;

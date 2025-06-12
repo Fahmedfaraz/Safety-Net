@@ -1,5 +1,6 @@
 package com.safetynet.alerts.safetynetalerts.test.controller;
 
+import static org.mockito.BDDMockito.given;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
@@ -17,6 +18,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.safetynet.alerts.safetynetalerts.rest.model.MedicalRecord;
 import com.safetynet.alerts.safetynetalerts.rest.model.Person;
+import com.safetynet.alerts.safetynetalerts.rest.model.PersonInfo;
 import com.safetynet.alerts.safetynetalerts.service.DataRepository;
 import com.safetynet.alerts.safetynetalerts.service.PersonService;
 
@@ -37,8 +39,24 @@ class PersonControllerTest {
 
 	@Test
 	void testGetPersonInfo() throws Exception {
-		mockMvc.perform(get("/personInfo?firstName=abc&lastName=xyz"))
+		PersonInfo personinfo = new PersonInfo();
+		personinfo.setAddress("test");
+		personinfo.setFirstName("John");
+		personinfo.setLastName("Boyd");
+		
+		given(personService.getPersonInfo("John","Boyd"))
+        .willReturn(List.of(personinfo));
+		
+		mockMvc.perform(get("/personInfo?firstName=John&lastName=Boyd"))
 		.andExpect(status().is2xxSuccessful());
+	}
+	
+	@Test
+	void testGetPersonInfoNegative() throws Exception {
+		
+		
+		mockMvc.perform(get("/personInfo?firstName=Test&lastName=Test"))
+		.andExpect(status().is4xxClientError());
 	}
 
 		@Test
