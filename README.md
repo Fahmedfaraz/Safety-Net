@@ -2,9 +2,9 @@
 
 ## Project Purpose
 Why SafetyNet Alerts?
-- ● Provide emergency responders with critical information quickly
-- ● Access residents' details like phone, age, medications, and allergies
-- ● Notify residents of emergencies like fires, storms, and floods
+- Provide emergency responders with critical information quickly
+- Access residents' details like phone, age, medications, and allergies
+- Notify residents of emergencies like fires, storms, and floods
 
 ## Technology Stack
 -  Backend: Spring Boot (MVC architecture)
